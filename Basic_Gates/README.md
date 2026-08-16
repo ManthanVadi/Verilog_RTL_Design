@@ -151,5 +151,6 @@ Basic_Gates/
 * Functional Simulation
 * Testbench-based Verification
 * Synopsys
+* VCS , Verdi
 
   
