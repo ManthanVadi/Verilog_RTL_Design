@@ -1,0 +1,15 @@
+module encoder4to2(input [3:0] A,input E,output reg [1:0]Y);
+	always @(*)
+	begin 
+	if(E)begin
+	case(A)
+	4'b0001 : Y=2'b00;
+	4'b0010 : Y=2'b01;
+	4'b0100 : Y=2'b10;
+	4'b1000 : Y=2'b11;
+	endcase
+	end
+	else
+	Y=4'BXXXX;
+	end
+endmodule
