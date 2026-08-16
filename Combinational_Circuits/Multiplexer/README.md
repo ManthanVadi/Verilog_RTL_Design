@@ -25,5 +25,5 @@ Each implementation includes a dedicated Verilog testbench to verify the functio
 * Verilog HDL
 * RTL Simulation
 * Synopsys
-* VCS , Verdi
+* VCS ,Verdi
 
